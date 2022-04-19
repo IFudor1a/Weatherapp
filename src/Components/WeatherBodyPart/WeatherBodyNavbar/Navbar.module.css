@@ -1,0 +1,44 @@
+header {
+    display: block;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+.Nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.NavItem {
+    font-size: 24px;
+    display: inline;
+    font-weight: 700;
+    color: gray;
+    margin: 0 20px;
+    cursor: pointer;
+
+}
+.NavItemRight {
+    display: inline;
+    float: right;
+    margin: 0 20px;
+}
+.Active {
+    font-weight: 900;
+    color: black;
+}
+.NavbarButton {
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0 10px 18px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+.ActiveBut {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}

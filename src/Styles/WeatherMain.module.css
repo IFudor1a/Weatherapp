@@ -1,0 +1,59 @@
+.CurrentDay {
+    margin: 10px 20px;
+}
+.Image {
+    width: 200px;
+    height:200px;
+}
+.Container {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+.WeatherText {
+    font-weight: bold;
+    font-size: 60px;
+}
+.WeatherCity {
+    font-weight: bold;
+    font-size: 20px;
+}
+.WeatherDay {
+    display: inline;
+    font-weight: 500;
+}
+.WeatherTime {
+    display: inline;
+    color: grey;
+    font-weight: 500;
+}
+.Shadows {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.WeatherMain__body {
+    height: 99vh;
+}
+.CircleButton {
+    font-weight: bold;
+    display: inline;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.25), 0 3px 2px rgba(0,0,0,0.22);
+}
+.WeatherDescription {
+    font-weight: 600;
+    font-size: 16px;
+}
+.WeatherClouds {
+    font-weight: 600;
+    font-size: 16px;
+}
+@media (max-width: 500px) {
+    .WeatherMain__body {
+        height: 110vh;
+    }
+}

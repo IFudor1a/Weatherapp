@@ -1,0 +1,32 @@
+.Body {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 20px;
+    width: 100px;
+    height: 140px;
+    margin: 30px 35px;
+    padding: 10px 10px;
+    display: inline-block;
+
+}
+.Header {
+    font-weight: bold;
+    text-align: center;
+}
+.ImageContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.Image {
+    width: 70px;
+    height: 70px;
+}
+.Deg {
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+.DegMax {
+    color: grey;
+    font-weight: 600;
+}
