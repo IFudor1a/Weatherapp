@@ -19,7 +19,7 @@ const WeatherBody = (props) => {
         let cityTime = utc + (offset * 1000)
         let d = new Date(cityTime)
         hour = d.getHours()
-        minutes = d.getMinutes() < 10?('0' + d.getMinutes()):d.getMinutes()
+        minutes = d.getMinutes() < 10 ? ('0' + d.getMinutes()) : d.getMinutes()
         day = weekday[d.getDay()]
     }
     props.data && calcTime(props.data.timezone)

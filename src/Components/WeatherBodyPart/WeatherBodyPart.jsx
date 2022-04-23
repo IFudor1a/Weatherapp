@@ -9,8 +9,9 @@ const WeatherBodyPart = (props) => {
     return (
         <Col className="d-none d-sm-block" sm md lg={9}>
             <Navbar measure={props.measure} setMeasure={props.setMeasure}/>
-            <FiveForeCast data={props.data} FiveDayForCast = {props.FiveDayForCast} measure = {props.measure}/>
-            <TodayDetail data={props.data} viewport={props.viewport} setViewport={props.setViewport} FiveDayForCast = {props.FiveDayForCast} measure = {props.measure}/>
+            <FiveForeCast data={props.data} FiveDayForCast={props.FiveDayForCast} measure={props.measure}/>
+            <TodayDetail data={props.data} viewport={props.viewport} setViewport={props.setViewport}
+                         FiveDayForCast={props.FiveDayForCast} measure={props.measure}/>
             <Footer>
 
             </Footer>

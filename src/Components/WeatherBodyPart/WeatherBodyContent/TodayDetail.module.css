@@ -13,11 +13,13 @@
     display: inline-block;
 
 }
+
 .Title {
     font-weight: bold;
     margin: auto;
     font-size: 28px;
 }
+
 .Header {
     font-weight: bold;
     margin: auto;
@@ -31,10 +33,12 @@
     flex-direction: row;
     align-items: center;
 }
+
 .Icons {
     width: 30px;
     height: 30px;
 }
+
 .Margin {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -47,30 +51,36 @@
         height: 20px;
         display: inline;
     }
+
     .Margin {
         vertical-align: middle;
         text-align: center;
         font-size: 16px;
-        margin:0;
+        margin: 0;
     }
+
     .Header {
         margin: 0;
     }
 
 }
+
 @media (max-width: 1024px) {
     .Margin {
         vertical-align: middle;
         text-align: center;
         font-size: 14px;
-        margin:0;
+        margin: 0;
     }
-    .Body{
+
+    .Body {
         height: 160px;
     }
+
     .Map {
         display: none;
     }
+
     .Icons {
         width: 20px;
         height: 20px;

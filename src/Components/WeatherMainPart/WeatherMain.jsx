@@ -13,7 +13,8 @@ const WeatherMain = (props) => {
             <Container className={css.WeatherMain__body}>
                 <WeatherSearch measure={props.measure} setMeasure={props.setMeasure} city={props.city}
                                setCity={props.setCity} data={props.data} setData={props.setData}
-                               setViewport={props.setViewport} viewport = {props.viewport} setFiveDayForCast = {props.setFiveDayForCast}/>
+                               setViewport={props.setViewport} viewport={props.viewport}
+                               setFiveDayForCast={props.setFiveDayForCast}/>
                 <WeatherBody measure={props.measure} data={props.data}/>
                 <WeatherClouds data={props.data}/>
             </Container>

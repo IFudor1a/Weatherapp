@@ -20,9 +20,9 @@ function App() {
             <Row>
                 <WeatherMain measure={measure} setMeasure={setMeasure} city={city} setCity={setCity} data={data}
                              setData={setData} viewport={viewport}
-                             setViewport={setViewport} setFiveDayForCast = {setFiveDayForCast}/>
+                             setViewport={setViewport} setFiveDayForCast={setFiveDayForCast}/>
                 <WeatherBodyPart measure={measure} setMeasure={setMeasure} viewport={viewport} setViewport={setViewport}
-                                 city={city} data={data} FiveDayForCast = {FiveDayForCast}/>
+                                 city={city} data={data} FiveDayForCast={FiveDayForCast}/>
             </Row>
         </div>
     );
