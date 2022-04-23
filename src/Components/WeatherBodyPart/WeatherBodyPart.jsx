@@ -3,6 +3,7 @@ import Navbar from './WeatherBodyNavbar/Navbar';
 import FiveForeCast from "./WeatherBodyForeCast/FiveForeCast";
 import TodayDetail from "./WeatherBodyContent/TodayDetail";
 import Col from "react-bootstrap/Col";
+import Footer from "./Footer/Footer";
 
 const WeatherBodyPart = (props) => {
     return (
@@ -10,6 +11,9 @@ const WeatherBodyPart = (props) => {
             <Navbar measure={props.measure} setMeasure={props.setMeasure}/>
             <FiveForeCast data={props.data} FiveDayForCast = {props.FiveDayForCast} measure = {props.measure}/>
             <TodayDetail data={props.data} viewport={props.viewport} setViewport={props.setViewport} FiveDayForCast = {props.FiveDayForCast} measure = {props.measure}/>
+            <Footer>
+
+            </Footer>
         </Col>
     );
 };

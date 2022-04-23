@@ -48,3 +48,27 @@ header {
     color: white;
     border: 1px solid black;
 }
+@media (max-width: 950px) {
+    .NavItem{
+        font-size: 18px;
+    }
+    .NavItemRight {
+        margin: 0 10px;
+    }
+    .NavbarButton {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width: 900px) {
+    .NavItem{
+        font-size: 18px;
+    }
+    .NavItemRight {
+        margin: 0 10px;
+    }
+    .NavbarButton {
+        width: 30px;
+        height: 30px;
+    }
+}
