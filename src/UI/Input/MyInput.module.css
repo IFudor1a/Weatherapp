@@ -6,3 +6,9 @@
     border: 1px solid black;
     border-radius: 20px;
 }
+
+@media (max-width: 1100px) {
+    .myInput {
+        margin: 20px 5px;
+    }
+}

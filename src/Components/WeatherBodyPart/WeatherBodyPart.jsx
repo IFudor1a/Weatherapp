@@ -4,12 +4,12 @@ import FiveForeCast from "./WeatherBodyForeCast/FiveForeCast";
 import TodayDetail from "./WeatherBodyContent/TodayDetail";
 import Col from "react-bootstrap/Col";
 
-const WeatherBodyPart = () => {
+const WeatherBodyPart = (props) => {
     return (
-        <Col sm md lg = {9}>
-            <Navbar />
-            <FiveForeCast />
-            <TodayDetail />
+        <Col className="d-none d-sm-block" sm md lg={9}>
+            <Navbar measure={props.measure} setMeasure={props.setMeasure}/>
+            <FiveForeCast data={props.data} FiveDayForCast = {props.FiveDayForCast} measure = {props.measure}/>
+            <TodayDetail data={props.data} viewport={props.viewport} setViewport={props.setViewport} FiveDayForCast = {props.FiveDayForCast} measure = {props.measure}/>
         </Col>
     );
 };
